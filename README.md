@@ -1,1 +1,3 @@
-# shubham-shar.github.io
+# Online Resume
+
+Built using HTML, CSS, Bootstrap.

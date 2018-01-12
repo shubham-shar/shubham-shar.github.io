@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- This is the title of the page -->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!-- This is for the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Portfolio</title>
+    <!-- Opens Sans font link -->
+    <link href="https://fonts.googleapis.com/css?family=Jura:700" rel="stylesheet">
+    <!-- link for java query to open more info about work images -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Link to bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+    <!-- Whole page Block containing every other block-->
+    <div class="container pt-2">
+      <!-- Header row block -->
+        <header class="row">
+          <!-- Block for Header logo -->
+          <div class="col-md-2">
+            <img class="img-responsive" src="images/name.jpg" alt="Sharmay Logo">
+          </div>
+          <!-- Block for title for header -->
+          <div class="col-md-10 text-right text-uppercase">
+            <h1 style="font-family:'Jura', sans-serif;">Shubham Sharma</h1>
+            <h4 style="font-family:'Jura', sans-serif;" class="">Front-end Ninja</h4>
+          </div>
+        </header>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <!-- Block for Center content -->
+        <section class="row">
+          <!-- Block for Center image -->
+          <div class="col-md-12">
+            <img class="img-responsive content-img" src="images/catalog.png" alt="Catalog Project image">
+          </div>
+        </section>
+        <!-- Block for the footer -->
+        <div class="row">
+          <!-- Block for Footer heading-->
+          <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
+        </div>
+        <!-- block for footer content-->
+        <footer class="row text-center">
+          <!-- Content one for footer -->
+          <div class="col-md-4">
+            <!-- first image -->
+            <img class="img-responsive" src="images/movie-trailer.PNG" alt="Movie Trailer Project"
+             data-toggle="modal" data-target="#image1">
+            <h3 class="text-uppercase">Movie Trailer</h3>
+            <a href="https://github.com/shubham-shar/Movie-Trailer">Source Code</a>
+          </div>
+          <!-- Content second for footer -->
+          <div class="col-md-4 work-block">
+            <!-- second image -->
+            <img class="img-responsive" src="images/map.PNG" alt="Neighbourhood Map Project"
+             data-toggle="modal" data-target="#image2">
+            <h3 class="text-uppercase">Neighbourhood Map</h3>
+            <a href="https://github.com/shubham-shar/Neighbourhood-Project">Source Code</a>
+          </div>
+          <!-- Content third for footer -->
+          <div class="col-md-4 work-block">
+            <!-- third image -->
+            <img class="img-responsive" src="images/Arcade Game.png" alt="Arcade Game Project"
+             data-toggle="modal" data-target="#image3">
+            <h3 class="text-uppercase">Arcade Game</h3>
+            <a href="https://github.com/shubham-shar/arcade-game">Source Code</a>
+          </div>
+        </footer>
+    </div>
+
+    <!-- Modal for first kitten -->
+    <div class="modal fade" id="image1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Movie Trailer Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/movie-trailer.PNG" alt="Movie Trailer Project">
+                    This project consists of making a webpage that displays movie posters
+                    and user can view the trailer of the respective movies.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for second kitten-->
+    <div class="modal fade" id="image2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Neighbourhood Map Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/map.PNG" alt="Neighbourhood Map Project">
+                    This project consists of making a Neighborhood Map webpage showing maps of particular area.
+                    Then it lets user to search for a particular place as well can search from a specific
+                    place given in the list or markers, which is just below the search bar.
+                    <br>
+                    It lets user to show all markers by clicking show markers button or hide them all by clicking
+                    the hide markers button.
+                    <br>
+                    It lets user to change to night mode and back to normal on a single click on Night mode On/Off button
+                    Lastly, it lets user to get wikipedia articles related to the place or string that the
+                    user will enter in the search bar.
+                    <br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for third kitten-->
+    <div class="modal fade" id="image3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Arcade Game Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/Arcade Game.png" alt="Arcade Game Project">
+                    ARCADE GAME <br>
+                    This game is very simple to play.
+
+                    To play just open `index.html` in any browser.
+                    Then player control the hero with the arrow key.
+                    Points are earned on the bases of the number of times
+                    the hero reaches the water without touching the bugs in
+                    the way.
+                    <br>
+                    if the player touches the bug then the points Earned
+                    will be resetted.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
