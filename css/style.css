@@ -1,7 +1,91 @@
 body {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a{
+  color: white;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: white;
+}
+nav{
+  background-color: #1a1a1a;
+}
+#about{
+  height: 100vh;
+  padding-top: 5vh;
+}
+.author{
+   font-size: 12vh;
+   justify-content: center;
+}
+.carousel-control {
+  color: #ffaaff;
+}
+.center-vert {
+  vertical-align: middle;
+}
+.container-fluid{
+  font-family:'Jura', sans-serif;
+}
+#certifications{
+  height: 100vh;
+  padding-top: 5vh;
+}
+#education {
+  padding-top: 5vh;
+  padding-bottom:10vh;
+}
+.fa-circle{
+  font-size: 65%;
+}
+#home{
+height: 100vh;
+}
+.home-page-content{
+  padding-top: 25vh;
 }
 .hover:hover {
   cursor: pointer;
+}
+#nav{
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+#page {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.pages:hover{
+  text-decoration: underline;
+}
+#projects {
+  height: 100vh;
+  padding-top: 5vh;
+  padding-bottom:10vh;
+}
+#skills {
+  padding-top: 5vh;
+  padding-bottom:10vh;
+}
+#skills-list{
+  padding-top: 8vh;
+}
+.skill-icons{
+  margin-top: 3%;
+  font-size: 400%;
+}
+.source-code{
+  color: blue;
+  text-decoration: underline;
+}
+.source-code:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
 }
