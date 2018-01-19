@@ -4,6 +4,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family:'Jura', sans-serif;
 }
 a{
   color: white;
@@ -16,12 +17,8 @@ a:focus {
 nav{
   background-color: #1a1a1a;
 }
-#about{
-  height: 100vh;
-  padding-top: 5vh;
-}
 .author{
-   font-size: 12vh;
+   font-size: 350%;
    justify-content: center;
 }
 .carousel-control {
@@ -30,22 +27,8 @@ nav{
 .center-vert {
   vertical-align: middle;
 }
-.container-fluid{
-  font-family:'Jura', sans-serif;
-}
-#certifications{
-  height: 100vh;
-  padding-top: 5vh;
-}
-#education {
-  padding-top: 5vh;
-  padding-bottom:10vh;
-}
 .fa-circle{
   font-size: 65%;
-}
-#home{
-height: 100vh;
 }
 .home-page-content{
   padding-top: 25vh;
@@ -54,7 +37,7 @@ height: 100vh;
   cursor: pointer;
 }
 #nav{
-  height: 100vh;
+  height: 100%;
   background-color: #1a1a1a;
 }
 #page {
@@ -63,15 +46,6 @@ height: 100vh;
 }
 .pages:hover{
   text-decoration: underline;
-}
-#projects {
-  height: 100vh;
-  padding-top: 5vh;
-  padding-bottom:10vh;
-}
-#skills {
-  padding-top: 5vh;
-  padding-bottom:10vh;
 }
 #skills-list{
   padding-top: 8vh;
